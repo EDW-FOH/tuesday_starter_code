@@ -1,5 +1,5 @@
-// TODO: Change values to analog pin numbers on the Arduino connected to the motor
-// NOTE: analog pin values often have an A in front of them. For example, analog pin 10 is often written as A10
+// TODO: Change value to digital pwm pin number on the Arduino connected to the motor
+// NOTE: pwm pins have a "~" in front of the number usually
 int motor_1_pin = 3;
 int motor_2_pin = 5;
 
