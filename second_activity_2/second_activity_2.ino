@@ -9,7 +9,7 @@ int motor_2_pin = 5;
 void setup() {
   // Here we initialize the pins on the board to the code
   // We want to get information from the button so we will set them as an input
-  pinMode(limit_switch_pin, INPUT);
+  pinMode(limit_switch_pin, INPUT_PULLUP);
 
   // We want to send information to the motor so we will set them as an output
   pinMode(motor_1_pin, OUTPUT);
@@ -24,8 +24,10 @@ void loop() {
   // TODO: Fill in the switch statement!
   switch(limit_switch_value){
     case HIGH:
-      
+      // TODO
+      break;
     case LOW:
-
+      // TODO
+      break;
   }
 }
